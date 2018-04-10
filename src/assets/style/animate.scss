@@ -21,24 +21,20 @@
 @keyframes backInX {
     0% {
         transform: translateX(-50%);
-        opacity: .5;
     }
 
     100% {
         transform: translateX(0);
-        opacity: 1;
     }
 }
 
 @keyframes backOutX {
     0% {
         transform: translateX(0);
-        box-shadow: 0 0 28px rgba(0, 0, 0, .3);
     }
 
     100% {
         transform: translateX(100%);
-        box-shadow: 0 0 28px rgba(0, 0, 0, .3);
     }
 }
 

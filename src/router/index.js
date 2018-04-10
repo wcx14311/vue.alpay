@@ -23,9 +23,6 @@ const router = new Router({
             component: require('@/view/index/my.vue').default
         }]
     }, {
-        path: '/cunkuan',
-        component: require('@/view/cunkuan.vue').default
-    }, {
         path: '/bussiness',
         component: require('@/view/bussiness.vue').default
     }, {
@@ -70,6 +67,9 @@ const router = new Router({
     }, {
         path: '/message/detail',
         component: require('@/view/message/detail.vue').default
+    }, {
+        path: '/cunkuan',
+        component: require('@/view/cunkuan.vue').default
     }, {
         path: '*',
         redirect: '/index'

@@ -1,5 +1,5 @@
 <template>
-    <div class="ui-container index-container">
+    <div class="ui-container">
         <ui-header title="订单明细" :back="true" @backTap="$router.go(-1)"></ui-header>
         <div class="ui-content white_bg">
             <div class="payment-details">

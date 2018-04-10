@@ -1,5 +1,5 @@
 <template>
-    <div class="ui-container index-container">
+    <div class="ui-container">
         <ui-header v-if="toolBarPath=='/index/home'">
             <ui-searchBar bg="#18c4ba"></ui-searchBar>
         </ui-header>

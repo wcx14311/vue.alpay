@@ -1,5 +1,5 @@
 <template>
-    <div class="ui-container index-container">
+    <div class="ui-container">
         <ui-header title="充值记录" :back="true" @backTap="$router.go(-1)"></ui-header>
         <div class="ui-content recharge-page">
             <ul class="history-list">

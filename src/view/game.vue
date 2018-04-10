@@ -1,5 +1,5 @@
 <template>
-    <div class="ui-container index-container">
+    <div class="ui-container">
         <ui-header title="游戏列表" :back="true" @backTap="$router.go(-1)"></ui-header>
         <ui-searchBar bg="#18c4ba" :box="false"></ui-searchBar>
         <div class="index-list">
