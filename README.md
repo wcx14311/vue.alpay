@@ -11,6 +11,7 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+```
 
 [查看效果](https://wcx14311.github.io/pullDownRefrash/index.html)
 
