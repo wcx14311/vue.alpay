@@ -17,6 +17,7 @@ npm run dev
 
 扫一扫查看
 ![image](https://github.com/wcx14311/vue.alpay/blob/master/src/assets/images/qr.png)
-```
+
+![image](https://github.com/wcx14311/vue.alpay/blob/master/src/assets/images/prev.gif)
 
 
