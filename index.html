@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vue-yolly</title>
+     <script type="text/javascript">
+        ;(function(win, lib) {
+            var doc = win.document;
+            var docEl = doc.documentElement;
+            var tid;
+
+            function refreshRem() {
+                // android原生浏览器定义screen.width为物理像素，android下chrome定义为px像素
+                var width = window.innerWidth;
+                var rem = width / 10;
+                docEl.style.fontSize = rem + 'px';
+            }
+
+            win.addEventListener('resize', function() {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+            win.addEventListener('pageshow', function(e) {
+                if (e.persisted) {
+                    clearTimeout(tid);
+                    tid = setTimeout(refreshRem, 300);
+                }
+            }, false);
+
+            if (doc.readyState === 'complete') {
+                refreshRem();
+            } else {
+                doc.addEventListener('DOMContentLoaded', function(e) {
+                    refreshRem();
+                }, false);
+            }
+            refreshRem();
+        })(window, window['lib'] || (window['lib'] = {}));
+    </script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>
