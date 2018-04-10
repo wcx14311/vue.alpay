@@ -21,3 +21,4 @@ npm run dev
 ![image](https://github.com/wcx14311/vue.alpay/blob/master/src/assets/images/prev.gif)
 
 
+
