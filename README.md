@@ -15,7 +15,7 @@ npm run dev
 [查看效果](https://wcx14311.github.io/pullDownRefrash/index.html)
 
 扫一扫查看
-![image](https://github.com/wcx14311/vue.alpay/blob/master/src/images/qr.png)
+![image](https://github.com/wcx14311/vue.alpay/blob/master/src/assets/images/qr.png)
 ```
 
 
